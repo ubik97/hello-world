@@ -1,7 +1,12 @@
 function sayHello() {
-  console.log("Hello Console")
+  console.log("Hello World!");
 }
 
 function alertHello() {
-  alert("Hello World")
+  alert("Hello World!");
+}
+
+function strangerHello() {
+  var p = document.getElementById("hello");
+  p.innerHTML="Hello World!";
 }
